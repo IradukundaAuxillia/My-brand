@@ -1,0 +1,126 @@
+<html>
+
+<head>
+  <title>safe space</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+  <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+  <link rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css"
+    integrity="sha512-rQgMaFKZKIoTKfYInSVMH1dSM68mmPYshaohG8pK17b+guRbSiMl9dDbd3Sd96voXZeGerRIFFr2ewIiusEUgg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.css"
+    integrity="sha512-z29Q7V4hP3XvbLl0lL87oz7Dcaq7Z3aK1/h7eEnS4eoG+aasvPyOP/Y3dMleU5SlAFwcXDaZhdmn82czL7JQCw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav
+    class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-600">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="text-grey-400 flex relative px-4 hover:bg-gray-200 cursor-pointer">
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+          <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-black "
+            href="../../index.html">Home</a><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button" onclick="toggleNavbar('example-collapse-navbar')">
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-black"
+          href="../../index.html">About us<button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button" onclick="toggleNavbar('example-collapse-navbar')">
+            <i class="text-white fas fa-bars"></i>
+          </button>
+      </div>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-black"
+          href="../../index.html">Servise</a>
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-black"
+          href="../../index.html">Project</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-black"
+          href="../../index.html">Blog</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 blackspace-nowrap  text-black"
+          href="../../index.html">Contact us</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-black fas fa-bars"></i>
+        </button>
+      </div>
+
+      <li class="flex items-center">
+        <a class="bg-red text-black-700 active:bg-blueGray-50 text-xs font-bold  px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+          href="https://www.creative-tim.com/product/notus-js?ref=njs-index" target="_blank">
+          <i class="fas fa-arrow-alt-circle-down"></i> Search
+        </a>
+      </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <footer class="relative pt-8 pb-6 mt-16">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-6/12 px-4 mx-auto text-center">
+          <div class="text-sm text-black-500 font-semibold py-1">
+            <ul>IRADUKUNDA Auxillia</ul>
+            <ul>Mathematician,Software developer</ul>
+            <ul>A versatile and professional software developer with commitment
+              and experience of developing creative Software solutions
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img Class="w-full md:w-6/12 px-4 mx-auto text-center" src="profile.JPG">
+        </div>
+      </div>
+    </div>
+    </div>
+    <section>
+      <div class="social">
+        <div class="inner">
+          <a href="#"><i class=" float:left fas fa-envelope-square"></i></a>
+          <a href="#"><i class=" fab fa-twitter"></i></a>
+          <a href="#"><i class=" fab fa-linkedin"></i></a>
+          <a href="#"><i class=" fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+</body>
+
+</html>
